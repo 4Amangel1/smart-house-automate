@@ -1,9 +1,10 @@
 package motion
 
 import (
-	"emulator/internal/domain/models"
 	"math/rand"
 	"time"
+
+	"github.com/4Amangel1/smart-house-automate/internal/models"
 )
 
 type Service struct {

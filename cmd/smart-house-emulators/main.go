@@ -8,10 +8,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/lostly/smart-house-automate/internal/api"
-	"github.com/lostly/smart-house-automate/internal/config"
-	"github.com/lostly/smart-house-automate/internal/domain/models"
-	"github.com/lostly/smart-house-automate/internal/emulator/sensors"
+	"github.com/4Amangel1/smart-house-automate/internal/config"
+	"github.com/4Amangel1/smart-house-automate/internal/emulator/sensors"
+	"github.com/4Amangel1/smart-house-automate/internal/models"
 )
 
 func main() {
@@ -28,10 +27,6 @@ func main() {
 	if err != nil {
 		logger.Fatalf("Failed to initialize sensors: %v", err)
 	}
-
-	// Инициализация API клиента
-	apiClient := api.NewClient(cfg.API)
-	apiService := api.NewService(apiClient, time.Duration(cfg.API.SendInterval)*time.Second)
 
 	done := make(chan struct{})
 	var wg sync.WaitGroup
@@ -61,14 +56,6 @@ func main() {
 		}(sensor)
 	}
 
-	// Регистрируем все датчики для отправки данных
-	for _, sensor := range allSensors {
-		apiService.RegisterSensor(sensor, sensor.Type())
-	}
-
-	// Запускаем сервис отправки данных
-	apiService.Start()
-
 	stopChan := make(chan os.Signal, 1)
 	signal.Notify(stopChan, syscall.SIGINT, syscall.SIGTERM)
 
@@ -80,8 +67,6 @@ func main() {
 	wg.Wait()
 	logger.Println("All sensors stopped. Shutting down.")
 
-	// Останавливаем сервис отправки данных
-	apiService.Stop()
 }
 
 // initializeSensors инициализирует все датчики на основе конфигурации

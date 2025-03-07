@@ -1,11 +1,11 @@
 package sensors
 
 import (
-	"github.com/lostly/smart-house-automate/internal/config"
-	"github.com/lostly/smart-house-automate/internal/domain/models"
-	"github.com/lostly/smart-house-automate/internal/emulator/sensors/airquality"
-	"github.com/lostly/smart-house-automate/internal/emulator/sensors/motion"
-	"github.com/lostly/smart-house-automate/internal/emulator/sensors/temperature"
+	"github.com/4Amangel1/smart-house-automate/internal/config"
+	"github.com/4Amangel1/smart-house-automate/internal/emulator/sensors/airquality"
+	"github.com/4Amangel1/smart-house-automate/internal/emulator/sensors/motion"
+	"github.com/4Amangel1/smart-house-automate/internal/emulator/sensors/temperature"
+	"github.com/4Amangel1/smart-house-automate/internal/models"
 )
 
 // NewTemperatureSensor создает новый датчик температуры

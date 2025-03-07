@@ -5,8 +5,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/lostly/smart-house-automate/internal/config"
-	"github.com/lostly/smart-house-automate/internal/domain/models"
+	"github.com/4Amangel1/smart-house-automate/internal/config"
+	"github.com/4Amangel1/smart-house-automate/internal/models"
 )
 
 // Sensor представляет датчик качества воздуха
