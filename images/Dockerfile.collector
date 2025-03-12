@@ -1,0 +1,15 @@
+FROM golang:1.21-alpine AS builder
+
+WORKDIR /app
+COPY . .
+
+RUN go build -o /bin/collector cmd/smart-house-collector/main.go
+
+FROM alpine:3.18
+
+WORKDIR /app
+COPY --from=builder /bin/collector /app/collector
+COPY configs/config.yaml /app/configs/config.yaml
+
+EXPOSE 9090
+CMD ["/app/collector"]

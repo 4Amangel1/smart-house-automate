@@ -1,0 +1,36 @@
+sensors:
+  temperature:
+    - id: "temp_living_room"
+      min: 18.0
+      max: 28.0
+      interval: 30s
+    - id: "temp_bedroom"
+      min: 16.0
+      max: 26.0
+      interval: 30s
+    - id: "temp_kitchen"
+      min: 17.0
+      max: 29.0
+      interval: 30s
+  
+  motion:
+    - id: "motion_hallway"
+      detection_interval: 5m
+      interval: 10s
+    - id: "motion_living_room"
+      detection_interval: 3m
+      interval: 10s
+  
+  air_quality:
+    - id: "air_kitchen"
+      min_co2: 400
+      max_co2: 2000
+      min_nh3: 0
+      max_nh3: 50
+      interval: 1m
+    - id: "air_living_room"
+      min_co2: 400
+      max_co2: 1500
+      min_nh3: 0
+      max_nh3: 30
+      interval: 1m

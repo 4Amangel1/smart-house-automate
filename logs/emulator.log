@@ -1,0 +1,444 @@
+sensor-emulator: 2025/03/12 01:15:04 Starting sensor emulator...
+sensor-emulator: 2025/03/12 01:15:04 Initialized 7 sensors
+sensor-emulator: 2025/03/12 01:15:14 [motion] motion_living_room: false
+sensor-emulator: 2025/03/12 01:15:14 [motion] motion_hallway: false
+sensor-emulator: 2025/03/12 01:15:24 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:15:24 [motion] motion_living_room: false
+sensor-emulator: 2025/03/12 01:15:34 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:15:34 [temperature] temp_kitchen: 28.907647023621127
+sensor-emulator: 2025/03/12 01:15:34 [temperature] temp_bedroom: 22.639985300162394
+sensor-emulator: 2025/03/12 01:15:34 [temperature] temp_living_room: 18.521316528591754
+sensor-emulator: 2025/03/12 01:15:34 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:15:44 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:15:44 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:15:54 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:15:54 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:16:04 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:16:04 [temperature] temp_kitchen: 25.772486124849337
+sensor-emulator: 2025/03/12 01:16:04 [temperature] temp_bedroom: 22.19898057343867
+sensor-emulator: 2025/03/12 01:16:04 [temperature] temp_living_room: 25.659190960833076
+sensor-emulator: 2025/03/12 01:16:04 [air_quality] air_kitchen: map[co2:1219 nh3:19]
+sensor-emulator: 2025/03/12 01:16:04 [air_quality] air_living_room: map[co2:1355 nh3:24]
+sensor-emulator: 2025/03/12 01:16:04 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:16:14 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:16:14 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:16:24 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:16:24 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:16:34 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:16:34 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:16:34 [temperature] temp_kitchen: 18.71617025732136
+sensor-emulator: 2025/03/12 01:16:34 [temperature] temp_living_room: 23.147802442014186
+sensor-emulator: 2025/03/12 01:16:34 [temperature] temp_bedroom: 18.76880904659825
+sensor-emulator: 2025/03/12 01:16:44 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:16:44 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:16:54 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:16:54 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:17:04 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:17:04 [temperature] temp_kitchen: 25.287070878074175
+sensor-emulator: 2025/03/12 01:17:04 [temperature] temp_bedroom: 18.873756509519442
+sensor-emulator: 2025/03/12 01:17:04 [temperature] temp_living_room: 21.19937887495353
+sensor-emulator: 2025/03/12 01:17:04 [air_quality] air_kitchen: map[co2:1696 nh3:22]
+sensor-emulator: 2025/03/12 01:17:04 [air_quality] air_living_room: map[co2:1096 nh3:15]
+sensor-emulator: 2025/03/12 01:17:04 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:17:14 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:17:14 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:17:24 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:17:24 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:17:34 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:17:34 [temperature] temp_kitchen: 28.32987325648385
+sensor-emulator: 2025/03/12 01:17:34 [temperature] temp_bedroom: 24.35556306698905
+sensor-emulator: 2025/03/12 01:17:34 [temperature] temp_living_room: 21.342960907564375
+sensor-emulator: 2025/03/12 01:17:34 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:17:44 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:17:44 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:17:54 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:17:54 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:18:04 [temperature] temp_kitchen: 26.12914639633583
+sensor-emulator: 2025/03/12 01:18:04 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:18:04 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:18:04 [air_quality] air_kitchen: map[co2:1578 nh3:36]
+sensor-emulator: 2025/03/12 01:18:04 [temperature] temp_bedroom: 22.500686917247112
+sensor-emulator: 2025/03/12 01:18:04 [temperature] temp_living_room: 27.264912761264043
+sensor-emulator: 2025/03/12 01:18:04 [air_quality] air_living_room: map[co2:1245 nh3:28]
+sensor-emulator: 2025/03/12 01:18:14 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:18:14 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:18:24 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:18:24 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:18:34 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:18:34 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:18:34 [temperature] temp_bedroom: 23.496405490773938
+sensor-emulator: 2025/03/12 01:18:34 [temperature] temp_living_room: 26.461092078677385
+sensor-emulator: 2025/03/12 01:18:34 [temperature] temp_kitchen: 21.615159880851614
+sensor-emulator: 2025/03/12 01:18:44 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:18:44 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:18:54 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:18:54 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:19:04 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:19:04 [air_quality] air_kitchen: map[co2:1731 nh3:32]
+sensor-emulator: 2025/03/12 01:19:04 [temperature] temp_bedroom: 20.88568032230133
+sensor-emulator: 2025/03/12 01:19:04 [temperature] temp_living_room: 24.76630137127432
+sensor-emulator: 2025/03/12 01:19:04 [air_quality] air_living_room: map[co2:1035 nh3:2]
+sensor-emulator: 2025/03/12 01:19:04 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:19:04 [temperature] temp_kitchen: 22.141195911417462
+sensor-emulator: 2025/03/12 01:19:14 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:19:14 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:19:24 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:19:24 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:19:34 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:19:34 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:19:34 [temperature] temp_bedroom: 16.393842814606174
+sensor-emulator: 2025/03/12 01:19:34 [temperature] temp_kitchen: 21.926679502809314
+sensor-emulator: 2025/03/12 01:19:34 [temperature] temp_living_room: 27.034924265641447
+sensor-emulator: 2025/03/12 01:19:44 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:19:44 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:19:54 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:19:54 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:20:04 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:20:04 [temperature] temp_bedroom: 16.813484309037623
+sensor-emulator: 2025/03/12 01:20:04 [air_quality] air_living_room: map[co2:953 nh3:12]
+sensor-emulator: 2025/03/12 01:20:04 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:20:04 [temperature] temp_kitchen: 23.58144665841759
+sensor-emulator: 2025/03/12 01:20:04 [temperature] temp_living_room: 18.055277438145964
+sensor-emulator: 2025/03/12 01:20:04 [air_quality] air_kitchen: map[co2:1046 nh3:20]
+sensor-emulator: 2025/03/12 01:20:14 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:20:14 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:20:24 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:20:24 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:20:34 [temperature] temp_living_room: 26.295314437653076
+sensor-emulator: 2025/03/12 01:20:34 [temperature] temp_bedroom: 24.724338094855995
+sensor-emulator: 2025/03/12 01:20:34 [temperature] temp_kitchen: 22.82940340391132
+sensor-emulator: 2025/03/12 01:20:34 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:20:34 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:20:44 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:20:44 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:20:54 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:20:54 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:21:04 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:21:04 [temperature] temp_kitchen: 17.075372979061854
+sensor-emulator: 2025/03/12 01:21:04 [temperature] temp_living_room: 19.345751315766343
+sensor-emulator: 2025/03/12 01:21:04 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:21:04 [temperature] temp_bedroom: 24.262027248385376
+sensor-emulator: 2025/03/12 01:21:04 [air_quality] air_kitchen: map[co2:694 nh3:2]
+sensor-emulator: 2025/03/12 01:21:04 [air_quality] air_living_room: map[co2:422 nh3:13]
+sensor-emulator: 2025/03/12 01:21:14 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:21:14 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:21:24 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:21:24 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:21:34 [temperature] temp_kitchen: 20.08457891922438
+sensor-emulator: 2025/03/12 01:21:34 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:21:34 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:21:34 [temperature] temp_bedroom: 17.353297041683792
+sensor-emulator: 2025/03/12 01:21:34 [temperature] temp_living_room: 22.854798250687203
+sensor-emulator: 2025/03/12 01:21:44 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:21:44 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:21:54 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:21:54 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:22:04 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:22:04 [temperature] temp_kitchen: 22.89388132228435
+sensor-emulator: 2025/03/12 01:22:04 [temperature] temp_bedroom: 24.33345751574126
+sensor-emulator: 2025/03/12 01:22:04 [air_quality] air_living_room: map[co2:908 nh3:13]
+sensor-emulator: 2025/03/12 01:22:04 [temperature] temp_living_room: 22.890444148880977
+sensor-emulator: 2025/03/12 01:22:04 [air_quality] air_kitchen: map[co2:1940 nh3:46]
+sensor-emulator: 2025/03/12 01:22:04 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:22:14 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:22:14 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:22:24 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:22:24 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:22:34 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:22:34 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:22:34 [temperature] temp_kitchen: 18.93169140774867
+sensor-emulator: 2025/03/12 01:22:34 [temperature] temp_living_room: 27.938253180959446
+sensor-emulator: 2025/03/12 01:22:34 [temperature] temp_bedroom: 20.316509336410324
+sensor-emulator: 2025/03/12 01:22:44 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:22:44 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:22:54 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:22:54 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:23:04 [temperature] temp_kitchen: 26.567338001984393
+sensor-emulator: 2025/03/12 01:23:04 [temperature] temp_living_room: 25.909647101021836
+sensor-emulator: 2025/03/12 01:23:04 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:23:04 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:23:04 [temperature] temp_bedroom: 22.97759294388282
+sensor-emulator: 2025/03/12 01:23:04 [air_quality] air_kitchen: map[co2:665 nh3:35]
+sensor-emulator: 2025/03/12 01:23:04 [air_quality] air_living_room: map[co2:975 nh3:2]
+sensor-emulator: 2025/03/12 01:23:14 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:23:14 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:23:24 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:23:24 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:23:34 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:23:34 [temperature] temp_living_room: 26.36019590057882
+sensor-emulator: 2025/03/12 01:23:34 [temperature] temp_bedroom: 17.650509046702634
+sensor-emulator: 2025/03/12 01:23:34 [temperature] temp_kitchen: 24.031029315487725
+sensor-emulator: 2025/03/12 01:23:34 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:23:44 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:23:44 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:23:54 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:23:54 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:24:04 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:24:04 [air_quality] air_kitchen: map[co2:1886 nh3:27]
+sensor-emulator: 2025/03/12 01:24:04 [air_quality] air_living_room: map[co2:1203 nh3:21]
+sensor-emulator: 2025/03/12 01:24:04 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:24:04 [temperature] temp_living_room: 22.819613052473752
+sensor-emulator: 2025/03/12 01:24:04 [temperature] temp_bedroom: 25.001873126507775
+sensor-emulator: 2025/03/12 01:24:04 [temperature] temp_kitchen: 28.92151756037083
+sensor-emulator: 2025/03/12 01:24:14 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:24:14 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:24:24 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:24:24 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:24:34 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:24:34 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:24:34 [temperature] temp_kitchen: 18.76666664606931
+sensor-emulator: 2025/03/12 01:24:34 [temperature] temp_bedroom: 20.32239547609024
+sensor-emulator: 2025/03/12 01:24:34 [temperature] temp_living_room: 19.870096798716258
+sensor-emulator: 2025/03/12 01:24:44 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:24:44 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:24:54 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:24:54 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:25:04 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:25:04 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:25:04 [temperature] temp_kitchen: 28.618714954565686
+sensor-emulator: 2025/03/12 01:25:04 [temperature] temp_bedroom: 21.114652377714165
+sensor-emulator: 2025/03/12 01:25:04 [temperature] temp_living_room: 20.30857618727286
+sensor-emulator: 2025/03/12 01:25:04 [air_quality] air_kitchen: map[co2:828 nh3:41]
+sensor-emulator: 2025/03/12 01:25:04 [air_quality] air_living_room: map[co2:856 nh3:16]
+sensor-emulator: 2025/03/12 01:25:14 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:25:14 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:25:24 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:25:24 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:25:34 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:25:34 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:25:34 [temperature] temp_bedroom: 23.227379637302825
+sensor-emulator: 2025/03/12 01:25:34 [temperature] temp_kitchen: 26.415515326063026
+sensor-emulator: 2025/03/12 01:25:34 [temperature] temp_living_room: 23.576699696077004
+sensor-emulator: 2025/03/12 01:25:44 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:25:44 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:25:54 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:25:54 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:26:04 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:26:04 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:26:04 [air_quality] air_living_room: map[co2:1416 nh3:26]
+sensor-emulator: 2025/03/12 01:26:04 [temperature] temp_kitchen: 24.038503543044897
+sensor-emulator: 2025/03/12 01:26:04 [air_quality] air_kitchen: map[co2:1444 nh3:29]
+sensor-emulator: 2025/03/12 01:26:04 [temperature] temp_bedroom: 20.540318302236372
+sensor-emulator: 2025/03/12 01:26:04 [temperature] temp_living_room: 21.672898485512377
+sensor-emulator: 2025/03/12 01:26:14 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:26:14 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:26:24 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:26:24 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:26:34 [temperature] temp_bedroom: 19.392474476068568
+sensor-emulator: 2025/03/12 01:26:34 [temperature] temp_kitchen: 28.198445994461178
+sensor-emulator: 2025/03/12 01:26:34 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:26:34 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:26:34 [temperature] temp_living_room: 21.6414953520495
+sensor-emulator: 2025/03/12 01:26:44 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:26:44 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:26:54 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:26:54 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:27:04 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:27:04 [temperature] temp_living_room: 23.492764522052045
+sensor-emulator: 2025/03/12 01:27:04 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:27:04 [air_quality] air_kitchen: map[co2:1672 nh3:15]
+sensor-emulator: 2025/03/12 01:27:04 [temperature] temp_kitchen: 22.76373870726654
+sensor-emulator: 2025/03/12 01:27:04 [temperature] temp_bedroom: 18.352941753726835
+sensor-emulator: 2025/03/12 01:27:04 [air_quality] air_living_room: map[co2:454 nh3:13]
+sensor-emulator: 2025/03/12 01:27:14 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:27:14 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:27:24 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:27:24 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:27:34 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:27:34 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:27:34 [temperature] temp_kitchen: 22.2698496740896
+sensor-emulator: 2025/03/12 01:27:34 [temperature] temp_bedroom: 21.531070318301683
+sensor-emulator: 2025/03/12 01:27:34 [temperature] temp_living_room: 25.688199243066755
+sensor-emulator: 2025/03/12 01:27:44 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:27:44 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:27:54 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:27:54 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:28:04 [air_quality] air_kitchen: map[co2:921 nh3:2]
+sensor-emulator: 2025/03/12 01:28:04 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:28:04 [temperature] temp_bedroom: 18.52750149334873
+sensor-emulator: 2025/03/12 01:28:04 [temperature] temp_living_room: 24.09412522700075
+sensor-emulator: 2025/03/12 01:28:04 [air_quality] air_living_room: map[co2:616 nh3:7]
+sensor-emulator: 2025/03/12 01:28:04 [temperature] temp_kitchen: 25.326007085523674
+sensor-emulator: 2025/03/12 01:28:04 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:28:14 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:28:14 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:28:24 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:28:24 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:28:34 [temperature] temp_bedroom: 21.986565371195486
+sensor-emulator: 2025/03/12 01:28:34 [temperature] temp_kitchen: 24.364017544904502
+sensor-emulator: 2025/03/12 01:28:34 [temperature] temp_living_room: 18.854358483710186
+sensor-emulator: 2025/03/12 01:28:34 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:28:34 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:28:44 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:28:44 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:28:54 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:28:54 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:29:04 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:29:04 [air_quality] air_living_room: map[co2:410 nh3:4]
+sensor-emulator: 2025/03/12 01:29:04 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:29:04 [air_quality] air_kitchen: map[co2:534 nh3:13]
+sensor-emulator: 2025/03/12 01:29:04 [temperature] temp_kitchen: 27.532509289167983
+sensor-emulator: 2025/03/12 01:29:04 [temperature] temp_bedroom: 19.18915390993374
+sensor-emulator: 2025/03/12 01:29:04 [temperature] temp_living_room: 23.331150031775454
+sensor-emulator: 2025/03/12 01:29:14 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:29:14 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:29:24 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:29:24 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:29:34 [temperature] temp_kitchen: 19.280057287424757
+sensor-emulator: 2025/03/12 01:29:34 [temperature] temp_bedroom: 21.2513325604404
+sensor-emulator: 2025/03/12 01:29:34 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:29:34 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:29:34 [temperature] temp_living_room: 19.745953208246327
+sensor-emulator: 2025/03/12 01:29:44 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:29:44 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:29:54 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:29:54 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:30:04 [temperature] temp_kitchen: 24.915333472926868
+sensor-emulator: 2025/03/12 01:30:04 [temperature] temp_bedroom: 25.821323426273946
+sensor-emulator: 2025/03/12 01:30:04 [temperature] temp_living_room: 26.901204784822095
+sensor-emulator: 2025/03/12 01:30:04 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:30:04 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:30:04 [air_quality] air_kitchen: map[co2:1563 nh3:17]
+sensor-emulator: 2025/03/12 01:30:04 [air_quality] air_living_room: map[co2:1127 nh3:25]
+sensor-emulator: 2025/03/12 01:30:14 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:30:14 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:30:24 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:30:24 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:30:34 [temperature] temp_bedroom: 17.64333709470438
+sensor-emulator: 2025/03/12 01:30:34 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:30:34 [temperature] temp_living_room: 27.105319606600315
+sensor-emulator: 2025/03/12 01:30:34 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:30:34 [temperature] temp_kitchen: 27.288472638106803
+sensor-emulator: 2025/03/12 01:30:44 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:30:44 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:30:54 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:30:54 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:31:04 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:31:04 [temperature] temp_bedroom: 20.85272149042291
+sensor-emulator: 2025/03/12 01:31:04 [temperature] temp_living_room: 19.88975452178178
+sensor-emulator: 2025/03/12 01:31:04 [temperature] temp_kitchen: 23.524360315844284
+sensor-emulator: 2025/03/12 01:31:04 [air_quality] air_kitchen: map[co2:663 nh3:40]
+sensor-emulator: 2025/03/12 01:31:04 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:31:04 [air_quality] air_living_room: map[co2:596 nh3:23]
+sensor-emulator: 2025/03/12 01:31:14 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:31:14 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:31:24 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:31:24 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:31:34 [temperature] temp_kitchen: 22.592711435833998
+sensor-emulator: 2025/03/12 01:31:34 [temperature] temp_bedroom: 25.48532049206745
+sensor-emulator: 2025/03/12 01:31:34 [temperature] temp_living_room: 25.61023282899251
+sensor-emulator: 2025/03/12 01:31:34 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:31:34 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:31:44 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:31:44 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:31:54 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:31:54 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:32:04 [temperature] temp_kitchen: 23.234895710465224
+sensor-emulator: 2025/03/12 01:32:04 [temperature] temp_bedroom: 16.493979563557623
+sensor-emulator: 2025/03/12 01:32:04 [temperature] temp_living_room: 20.95228765890946
+sensor-emulator: 2025/03/12 01:32:04 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:32:04 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:32:04 [air_quality] air_kitchen: map[co2:1643 nh3:35]
+sensor-emulator: 2025/03/12 01:32:04 [air_quality] air_living_room: map[co2:435 nh3:27]
+sensor-emulator: 2025/03/12 01:32:14 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:32:14 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:32:24 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:32:24 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:32:34 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:32:34 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:32:34 [temperature] temp_kitchen: 23.23924632739844
+sensor-emulator: 2025/03/12 01:32:34 [temperature] temp_bedroom: 23.0999838597717
+sensor-emulator: 2025/03/12 01:32:34 [temperature] temp_living_room: 19.496748157788456
+sensor-emulator: 2025/03/12 01:32:44 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:32:44 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:32:54 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:32:54 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:33:04 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:33:04 [air_quality] air_living_room: map[co2:1320 nh3:15]
+sensor-emulator: 2025/03/12 01:33:04 [air_quality] air_kitchen: map[co2:1164 nh3:41]
+sensor-emulator: 2025/03/12 01:33:04 [temperature] temp_kitchen: 26.215616913476875
+sensor-emulator: 2025/03/12 01:33:04 [temperature] temp_bedroom: 24.238571472263803
+sensor-emulator: 2025/03/12 01:33:04 [temperature] temp_living_room: 24.79267585707221
+sensor-emulator: 2025/03/12 01:33:04 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:33:14 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:33:14 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:33:24 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:33:24 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:33:34 [temperature] temp_bedroom: 20.92922547483009
+sensor-emulator: 2025/03/12 01:33:34 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:33:34 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:33:34 [temperature] temp_kitchen: 28.5561722030794
+sensor-emulator: 2025/03/12 01:33:34 [temperature] temp_living_room: 27.27947511639922
+sensor-emulator: 2025/03/12 01:33:44 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:33:44 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:33:54 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:33:54 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:34:04 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:34:04 [air_quality] air_living_room: map[co2:868 nh3:24]
+sensor-emulator: 2025/03/12 01:34:04 [temperature] temp_bedroom: 20.5305344749759
+sensor-emulator: 2025/03/12 01:34:04 [temperature] temp_living_room: 25.001045059777297
+sensor-emulator: 2025/03/12 01:34:04 [temperature] temp_kitchen: 24.087921051409996
+sensor-emulator: 2025/03/12 01:34:04 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:34:04 [air_quality] air_kitchen: map[co2:1866 nh3:45]
+sensor-emulator: 2025/03/12 01:34:14 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:34:14 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:34:24 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:34:24 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:34:34 [temperature] temp_kitchen: 20.664447072406105
+sensor-emulator: 2025/03/12 01:34:34 [temperature] temp_bedroom: 16.768669356143366
+sensor-emulator: 2025/03/12 01:34:34 [temperature] temp_living_room: 21.698067962393687
+sensor-emulator: 2025/03/12 01:34:34 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:34:34 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:34:44 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:34:44 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:34:54 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:34:54 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:35:04 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:35:04 [air_quality] air_living_room: map[co2:986 nh3:12]
+sensor-emulator: 2025/03/12 01:35:04 [temperature] temp_living_room: 21.836321407094186
+sensor-emulator: 2025/03/12 01:35:04 [temperature] temp_kitchen: 24.621654038782182
+sensor-emulator: 2025/03/12 01:35:04 [temperature] temp_bedroom: 17.862688662103483
+sensor-emulator: 2025/03/12 01:35:04 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:35:04 [air_quality] air_kitchen: map[co2:906 nh3:34]
+sensor-emulator: 2025/03/12 01:35:14 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:35:14 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:35:24 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:35:24 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:35:34 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:35:34 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:35:34 [temperature] temp_kitchen: 28.788688972920205
+sensor-emulator: 2025/03/12 01:35:34 [temperature] temp_bedroom: 20.961713826101764
+sensor-emulator: 2025/03/12 01:35:34 [temperature] temp_living_room: 24.3054366437333
+sensor-emulator: 2025/03/12 01:35:44 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:35:44 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:35:54 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:35:54 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:36:04 [temperature] temp_kitchen: 26.53876539325561
+sensor-emulator: 2025/03/12 01:36:04 [temperature] temp_bedroom: 20.045955373345496
+sensor-emulator: 2025/03/12 01:36:04 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:36:04 [temperature] temp_living_room: 26.30251638663002
+sensor-emulator: 2025/03/12 01:36:04 [air_quality] air_living_room: map[co2:1145 nh3:15]
+sensor-emulator: 2025/03/12 01:36:04 [air_quality] air_kitchen: map[co2:1842 nh3:29]
+sensor-emulator: 2025/03/12 01:36:04 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:36:14 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:36:14 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:36:24 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:36:24 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:36:34 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:36:34 [temperature] temp_kitchen: 17.099395835752233
+sensor-emulator: 2025/03/12 01:36:34 [temperature] temp_living_room: 18.040090770897095
+sensor-emulator: 2025/03/12 01:36:34 [temperature] temp_bedroom: 16.795874755928473
+sensor-emulator: 2025/03/12 01:36:34 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:36:44 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:36:44 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:36:54 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:36:54 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:37:04 [motion] motion_hallway: true
+sensor-emulator: 2025/03/12 01:37:04 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:37:04 [air_quality] air_living_room: map[co2:679 nh3:29]
+sensor-emulator: 2025/03/12 01:37:04 [air_quality] air_kitchen: map[co2:827 nh3:38]
+sensor-emulator: 2025/03/12 01:37:04 [temperature] temp_kitchen: 22.285650707979006
+sensor-emulator: 2025/03/12 01:37:04 [temperature] temp_living_room: 21.53233103898138
+sensor-emulator: 2025/03/12 01:37:04 [temperature] temp_bedroom: 21.634311083398693
+sensor-emulator: 2025/03/12 01:37:14 [motion] motion_living_room: true
+sensor-emulator: 2025/03/12 01:37:14 [motion] motion_hallway: true

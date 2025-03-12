@@ -1,0 +1,64 @@
+smart-house-bot: 2025/03/12 01:15:10 Starting Smart House Telegram Bot...
+smart-house-bot: 2025/03/12 01:15:10 Connected to database
+smart-house-bot: 2025/03/12 01:15:10 Bot starting with token length: 46
+smart-house-bot: 2025/03/12 01:15:10 Authorized users: [7141692103]
+smart-house-bot: 2025/03/12 01:15:10 Added authorized user from config: 7141692103
+smart-house-bot: 2025/03/12 01:15:10 Starting Telegram bot...
+smart-house-bot: 2025/03/12 01:15:10 Bot starting with token length: 46
+smart-house-bot: 2025/03/12 01:15:10 Authorized users map: map[7141692103:true]
+smart-house-bot: 2025/03/12 01:15:10 Authorized users: 1
+smart-house-bot: 2025/03/12 01:15:10 Bot smart_house_aoutomate_bot started successfully
+smart-house-bot: 2025/03/12 01:15:10 Starting notification service...
+smart-house-bot: 2025/03/12 01:15:10 Starting notification service with interval 1m0s
+smart-house-bot: 2025/03/12 01:15:22 Received message from user 7141692103 in chat 7141692103: /start
+smart-house-bot: 2025/03/12 01:15:22 Received command from user 7141692103: start
+smart-house-bot: 2025/03/12 01:15:25 Received message from user 7141692103 in chat 7141692103: /status
+smart-house-bot: 2025/03/12 01:15:25 Received command from user 7141692103: status
+smart-house-bot: 2025/03/12 01:15:29 Received message from user 7141692103 in chat 7141692103: /status
+smart-house-bot: 2025/03/12 01:15:29 Received command from user 7141692103: status
+smart-house-bot: 2025/03/12 01:15:43 Received message from user 7141692103 in chat 7141692103: /status
+smart-house-bot: 2025/03/12 01:15:43 Received command from user 7141692103: status
+smart-house-bot: 2025/03/12 01:16:10 Error sending markdown message to 7141692103: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 71
+smart-house-bot: 2025/03/12 01:17:10 Error sending markdown message to 7141692103: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 71
+smart-house-bot: 2025/03/12 01:18:10 Error sending markdown message to 7141692103: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 71
+smart-house-bot: 2025/03/12 01:19:10 Error sending markdown message to 7141692103: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 71
+smart-house-bot: 2025/03/12 01:20:11 Error sending markdown message to 7141692103: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 71
+smart-house-bot: 2025/03/12 01:20:12 Error sending markdown message to 7141692103: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 97
+smart-house-bot: 2025/03/12 01:21:10 Error sending markdown message to 7141692103: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 71
+smart-house-bot: 2025/03/12 01:22:10 Error sending markdown message to 7141692103: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 71
+smart-house-bot: 2025/03/12 01:22:11 Error sending markdown message to 7141692103: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 97
+smart-house-bot: 2025/03/12 01:23:10 Error sending markdown message to 7141692103: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 71
+smart-house-bot: 2025/03/12 01:23:11 Error sending markdown message to 7141692103: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 97
+smart-house-bot: 2025/03/12 01:24:10 Error sending markdown message to 7141692103: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 71
+smart-house-bot: 2025/03/12 01:24:11 Error sending markdown message to 7141692103: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 97
+smart-house-bot: 2025/03/12 01:25:10 Error sending markdown message to 7141692103: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 71
+smart-house-bot: 2025/03/12 01:25:11 Error sending markdown message to 7141692103: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 97
+smart-house-bot: 2025/03/12 01:26:10 Error sending markdown message to 7141692103: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 71
+smart-house-bot: 2025/03/12 01:26:11 Error sending markdown message to 7141692103: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 97
+smart-house-bot: 2025/03/12 01:27:10 Error sending markdown message to 7141692103: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 71
+smart-house-bot: 2025/03/12 01:27:11 Error sending markdown message to 7141692103: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 97
+smart-house-bot: 2025/03/12 01:28:11 Error sending markdown message to 7141692103: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 71
+smart-house-bot: 2025/03/12 01:28:11 Error sending markdown message to 7141692103: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 97
+smart-house-bot: 2025/03/12 01:29:10 Error sending markdown message to 7141692103: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 71
+smart-house-bot: 2025/03/12 01:29:11 Error sending markdown message to 7141692103: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 97
+smart-house-bot: 2025/03/12 01:30:10 Error sending markdown message to 7141692103: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 71
+smart-house-bot: 2025/03/12 01:31:10 Error sending markdown message to 7141692103: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 71
+smart-house-bot: 2025/03/12 01:31:11 Error sending markdown message to 7141692103: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 97
+smart-house-bot: 2025/03/12 01:32:10 Error sending markdown message to 7141692103: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 71
+smart-house-bot: 2025/03/12 01:32:11 Error sending markdown message to 7141692103: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 97
+smart-house-bot: 2025/03/12 01:33:10 Error sending markdown message to 7141692103: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 71
+smart-house-bot: 2025/03/12 01:33:11 Error sending markdown message to 7141692103: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 97
+smart-house-bot: 2025/03/12 01:34:10 Error sending markdown message to 7141692103: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 71
+smart-house-bot: 2025/03/12 01:34:11 Error sending markdown message to 7141692103: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 97
+smart-house-bot: 2025/03/12 01:35:10 Error sending markdown message to 7141692103: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 71
+smart-house-bot: 2025/03/12 01:35:11 Error sending markdown message to 7141692103: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 97
+smart-house-bot: 2025/03/12 01:36:10 Error sending markdown message to 7141692103: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 71
+smart-house-bot: 2025/03/12 01:36:11 Error sending markdown message to 7141692103: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 97
+smart-house-bot: 2025/03/12 01:36:24 Received message from user 7141692103 in chat 7141692103: /start
+smart-house-bot: 2025/03/12 01:36:24 Received command from user 7141692103: start
+smart-house-bot: 2025/03/12 01:36:26 Received message from user 7141692103 in chat 7141692103: /status
+smart-house-bot: 2025/03/12 01:36:26 Received command from user 7141692103: status
+smart-house-bot: 2025/03/12 01:37:10 Error sending markdown message to 7141692103: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 71
+smart-house-bot: 2025/03/12 01:37:11 Error sending markdown message to 7141692103: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 97
+smart-house-bot: 2025/03/12 01:37:15 Received message from user 7141692103 in chat 7141692103: /status
+smart-house-bot: 2025/03/12 01:37:15 Received command from user 7141692103: status

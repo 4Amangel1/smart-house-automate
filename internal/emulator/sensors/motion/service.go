@@ -12,11 +12,6 @@ type Service struct {
 	detectionInterval time.Duration
 	lastDetection     time.Time
 	interval          time.Duration
-	rnd               *rand.Rand
-}
-
-func init() {
-	rand.Seed(time.Now().UnixNano())
 }
 
 func New(cfg Config) (*Service, error) {
@@ -28,7 +23,7 @@ func New(cfg Config) (*Service, error) {
 		id:                cfg.ID,
 		detectionInterval: cfg.DetectionInterval,
 		interval:          cfg.Interval,
-		rnd:               rand.New(rand.NewSource(time.Now().UnixNano())),
+		lastDetection:     time.Now().Add(-24 * time.Hour), // Инициализация в прошлом
 	}, nil
 }
 
@@ -42,22 +37,19 @@ func (s *Service) Type() string { return "motion" }
 func (s *Service) Read() (models.Reading, error) {
 	now := time.Now().UTC()
 
-	if now.Sub(s.lastDetection) < s.detectionInterval {
-		return models.Reading{}, models.ErrNotReady
-	}
+	// 30% шанс обнаружения движения
+	detected := rand.Float64() < 0.3
 
-	s.lastDetection = now
-	detected := s.rnd.Intn(2) == 1
-
-	var valueDisplay string
+	// Если движение обнаружено, обновляем время последнего обнаружения
 	if detected {
-		valueDisplay = "motion detected"
-	} else {
-		valueDisplay = "motion not detected"
+		s.lastDetection = now
 	}
+
+	// Движение считается активным, если оно было обнаружено в течение detectionInterval
+	isActive := now.Sub(s.lastDetection) <= s.detectionInterval
 
 	return models.Reading{
-		Value:     valueDisplay,
+		Value:     isActive,
 		Timestamp: now,
 	}, nil
 }

@@ -29,7 +29,6 @@ func New(cfg Config) (*Service, error) {
 		maxNH3:   cfg.MaxNH3,
 		interval: cfg.Interval,
 	}, nil
-
 }
 
 func (s *Service) Interval() time.Duration {
@@ -43,13 +42,14 @@ func (s *Service) Read() (models.Reading, error) {
 	co2 := s.minCO2 + rand.Float64()*(s.maxCO2-s.minCO2)
 	nh3 := s.minNH3 + rand.Float64()*(s.maxNH3-s.minNH3)
 
+	// Округляем до целых значений для согласованности
+	co2 = float64(int(co2))
+	nh3 = float64(int(nh3))
+
 	return models.Reading{
-		Value: struct {
-			CO2     float64 `json:"co2"`
-			Ammonia float64 `json:"ammonia"`
-		}{
-			CO2:     co2,
-			Ammonia: nh3,
+		Value: map[string]interface{}{
+			"co2": co2,
+			"nh3": nh3,
 		},
 		Timestamp: time.Now().UTC(),
 	}, nil

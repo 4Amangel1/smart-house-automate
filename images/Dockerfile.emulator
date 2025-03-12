@@ -1,0 +1,15 @@
+FROM golang:1.21-alpine AS builder
+
+WORKDIR /app
+COPY . .
+
+RUN go build -o /bin/emulator cmd/smart-house-emulators/main.go
+
+FROM alpine:3.18
+
+WORKDIR /app
+COPY --from=builder /bin/emulator /app/emulator
+COPY configs/config.yaml /app/configs/config.yaml
+
+EXPOSE 9092
+CMD ["/app/emulator"]

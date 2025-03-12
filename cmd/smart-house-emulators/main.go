@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/4Amangel1/smart-house-automate/internal/config"
-	"github.com/4Amangel1/smart-house-automate/internal/emulator/sensors"
+	"github.com/4Amangel1/smart-house-automate/internal/emulator/sensors/factory"
 	"github.com/4Amangel1/smart-house-automate/internal/models"
 )
 
@@ -22,11 +22,20 @@ func main() {
 		logger.Fatalf("Failed to load config: %v", err)
 	}
 
-	// Создаем и инициализируем датчики
-	allSensors, err := initializeSensors(cfg.Sensors)
+	// Создаем фабрику датчиков
+	sensorFactory, err := factory.New(cfg.Sensors)
 	if err != nil {
-		logger.Fatalf("Failed to initialize sensors: %v", err)
+		logger.Fatalf("Failed to create sensor factory: %v", err)
 	}
+
+	// Получаем все датчики
+	allSensors := sensorFactory.GetAllSensors()
+
+	if len(allSensors) == 0 {
+		logger.Fatal("No sensors configured")
+	}
+
+	logger.Printf("Initialized %d sensors", len(allSensors))
 
 	done := make(chan struct{})
 	var wg sync.WaitGroup
@@ -44,7 +53,9 @@ func main() {
 				case <-ticker.C:
 					reading, err := s.Read()
 					if err != nil {
-						logger.Printf("Sensor %s error: %v", s.ID(), err)
+						if err != models.ErrNotReady {
+							logger.Printf("Sensor %s error: %v", s.ID(), err)
+						}
 						continue
 					}
 					logger.Printf("[%s] %s: %+v", s.Type(), s.ID(), reading.Value)
@@ -66,39 +77,4 @@ func main() {
 
 	wg.Wait()
 	logger.Println("All sensors stopped. Shutting down.")
-
-}
-
-// initializeSensors инициализирует все датчики на основе конфигурации
-func initializeSensors(cfg config.SensorsConfig) ([]models.Sensor, error) {
-	var allSensors []models.Sensor
-
-	// Инициализация температурных датчиков
-	for _, tCfg := range cfg.Temperature {
-		sensor, err := sensors.NewTemperatureSensor(tCfg)
-		if err != nil {
-			return nil, err
-		}
-		allSensors = append(allSensors, sensor)
-	}
-
-	// Инициализация датчиков движения
-	for _, mCfg := range cfg.Motion {
-		sensor, err := sensors.NewMotionSensor(mCfg)
-		if err != nil {
-			return nil, err
-		}
-		allSensors = append(allSensors, sensor)
-	}
-
-	// Инициализация датчиков качества воздуха
-	for _, aqCfg := range cfg.AirQuality {
-		sensor, err := sensors.NewAirQualitySensor(aqCfg)
-		if err != nil {
-			return nil, err
-		}
-		allSensors = append(allSensors, sensor)
-	}
-
-	return allSensors, nil
 }
